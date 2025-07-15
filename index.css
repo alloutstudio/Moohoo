@@ -1,0 +1,181 @@
+body {
+  background-color: #07418C;
+  margin: 0;
+  padding: 0;
+}
+
+.bodyform {
+ background: linear-gradient(to bottom, #07418C 0%, #ffffff 50%, #07418C 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.header-logo {
+  height: 40px;
+}
+
+.headerform-logo {
+  display: block;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-icon {
+  width: 32px;
+  height: auto;        
+}
+
+.logo-icon {
+  width: 90px;
+  height: auto;
+}
+
+.product {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.cake-banner {
+  background-color: #07418C;  /* Red background */
+  width:30%;           
+}
+
+.topcontainer {
+      height: 80px;              /* Full height of viewport */
+      background-color: #07418C;  /* Red background or any color */
+}
+
+.button {
+  display: block;
+  width: 80%;
+  max-width: 1400px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #07418C;
+  color: white;
+  border:  none;
+  text-decoration: none;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.banner {
+  width: 20%;             
+  height: auto;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;         
+  border-radius: 0;   
+}
+
+.custom-header {
+  background-color: #07418C;
+}
+
+.form-box {
+  background-color: rgba(7, 65, 140, 0.2); /* #07418C with 20% opacity */
+  padding: 30px 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.form-box h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  text-align: center;
+  color: #f7f7f7;
+}
+
+.subtitle {
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f7f7f7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: white;
+  text-align: left;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+button {
+  background-color: white;
+  color: #07418C;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 60%;
+  margin: 10px auto 0 auto;
+}
+
+@media (max-width: 480px) {
+  .header {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home-icon {
+    position: static;
+    font-size: 24px;
+  }
+}
+
+/* Swiper Slide Base Styling */
+/* Swiper Container */
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Each Slide */
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 500px; /* Rectangle height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+
+/* Image Styling */
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0; /* No rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
